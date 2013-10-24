@@ -1,0 +1,52 @@
+# Build
+dest: _gh_pages
+
+
+# Site metadata
+title: Bootstrap Templates
+lead: false
+description: >
+  Templates and data for Bootstrap's components.
+
+# License info
+license:
+  type: MIT License
+  url: ./license/index.html
+
+# URLs
+blog: http://assemble.io/blog/
+repo: https://github.com/upstage/bootstrap-templates
+download:
+  source: <%= site.repo %>/archive/master.zip
+
+
+# SEO/SEM
+google_analytics: false
+google_site_id: false
+
+
+# Comments
+disqus:
+  shortname: bootstrap-templates
+
+
+# Social
+social:
+  twitter:
+    via: jonschlinkert
+    username: upstageio
+  facebook: false
+  gplus: false
+  hn: false
+  google: false
+
+
+# Sharing
+social:
+  twitter: false
+  facebook: false
+  gplus: false
+  hn: false
+  google: false
+
+
