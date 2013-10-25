@@ -1,0 +1,11 @@
+---
+title: <%= pkg.name || Component %>
+---
+{{#each component}}
+<section id="{{@key}}-{{../title}}">
+  <h2>{{titleize @key}} {{../title}}</h2>
+  {{#each this}}
+    {{> component .}}
+  {{/each}}
+</section>
+{{/each}}

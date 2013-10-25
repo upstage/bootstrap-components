@@ -1,6 +1,3 @@
----
-layout: pretty.hbs
----
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -8,16 +5,46 @@ layout: pretty.hbs
   </head>
   <body>
     <a class="sr-only" href="#content">Skip navigation</a>
-    <!-- Navbar -->
+
+    <!-- Docs master nav -->
     {{> nav-main }}
+
+    <!-- Docs page layout -->
+    <div class="bs-header" id="content">
+      <div class="container">
+        <h1>{{ title }}</h1>
+        <p>{{default lead ''}}</p>
+      </div>
+    </div>
+
+    <!-- Callout for the old docs link -->
+    {{> banner }}
 
     <!-- Content -->
     <div class="container">
       {{> body }}
     </div>
 
+    <!-- Footer
+    ================================================== -->
+    <footer class="bs-footer" role="contentinfo">
+      <div class="container">
+        {{> social-buttons }}
+        <p>{{site.description}}</p>
+        <p>Code licensed under the <a href="./license/" target="_blank">{{ site.license.type }}</a>, documentation under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
+        <ul class="footer-links">
+          <li>Currently v{{ site.current_version }}</li>
+          <li class="muted">&middot;</li>
+          <li><a href="{{ site.repo }}">Repo</a></li>
+          <li class="muted">&middot;</li>
+          <li><a href="{{ site.repo }}/issues?state=open">Issues</a></li>
+          <li class="muted">&middot;</li>
+          <li><a href="http://assemble.io">Assemble</a></li>
+        </ul>
+      </div>
+    </footer>
+
     <!-- JS and analytics only. -->
     {{> footer }}
-
   </body>
 </html>

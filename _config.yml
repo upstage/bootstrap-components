@@ -21,8 +21,9 @@ download:
 
 
 # SEO/SEM
-google_analytics: false
-google_site_id: false
+google:
+  analytics: false
+  site_id: false
 
 
 # Comments
