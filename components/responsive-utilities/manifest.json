@@ -1,0 +1,17 @@
+{
+  "name": "responsive-utilities",
+  "version": "3.0.0",
+  "description": "Responsive Utilities UI component, from Upstage.",
+  "main": [
+    "dist/responsive-utilities.css",
+    "dist/responsive-utilities.html",
+    "dist/responsive-utilities.js"
+  ],
+  "metadata": "responsive-utilities.json",
+  "structure": "responsive-utilities.hbs",
+  "styles": "responsive-utilities.less",
+  "dependencies": {
+    "variables": "variables/variables.less",
+    "mixins": "mixins/mixins.less"
+  }
+}

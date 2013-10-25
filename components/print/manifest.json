@@ -1,0 +1,17 @@
+{
+  "name": "print",
+  "version": "3.0.0",
+  "description": "Print UI component, from Upstage.",
+  "main": [
+    "dist/print.css",
+    "dist/print.html",
+    "dist/print.js"
+  ],
+  "metadata": "print.json",
+  "structure": "print.hbs",
+  "styles": "print.less",
+  "dependencies": {
+    "variables": "variables/variables.less",
+    "mixins": "mixins/mixins.less"
+  }
+}

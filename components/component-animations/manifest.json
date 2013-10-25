@@ -1,0 +1,17 @@
+{
+  "name": "component-animations",
+  "version": "3.0.0",
+  "description": "Component Animations UI component, from Upstage.",
+  "main": [
+    "dist/component-animations.css",
+    "dist/component-animations.html",
+    "dist/component-animations.js"
+  ],
+  "metadata": "component-animations.json",
+  "structure": "component-animations.hbs",
+  "styles": "component-animations.less",
+  "dependencies": {
+    "variables": "variables/variables.less",
+    "mixins": "mixins/mixins.less"
+  }
+}

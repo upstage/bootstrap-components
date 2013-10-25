@@ -1,0 +1,43 @@
+{
+  "link": "#",
+  "alert": {
+    "modifier": "",
+    "strong": "Boring.",
+    "link": {},
+    "text": "Not much going on here."
+  },
+  "alert-success": {
+    "modifier": "alert-success",
+    "strong": "Well done!",
+    "link": {
+      "href": "#",
+      "text": "",
+      "outter": ""
+    },
+    "text": " Well done! You successfully read this important alert message."
+  },
+  "alert-success": {
+    "modifier": "alert-success",
+    "strong": "Well done!",
+    "link": "You successfully read <a href=\"<%= alert.link %>\" class=\"alert-link\">this important alert message</a>.",
+    "text": "You successfully read this important alert message."
+  },
+  "alert-info": {
+    "modifier": "alert-info",
+    "strong": "Heads up!",
+    "link": " This <a href=\"<%= alert.link %>\" class=\"alert-link\">alert needs your attention</a>, but it's not super important.",
+    "text": " This alert needs your attention, but it's not super important."
+  },
+  "alert-warning": {
+    "modifier": "alert-warning",
+    "strong": "Warning!",
+    "link": "Best check yo self, you're <a href=\"<%= alert.link %>\" class=\"alert-link\">not looking too good</a>.",
+    "text": "Best check yo self, you're not looking too good."
+  },
+  "alert-danger": {
+    "modifier": "alert-danger",
+    "strong": "Oh snap!",
+    "link": "<a href=\"<%= alert.link %>\" class=\"alert-link\">Change a few things up</a>and try submitting again.",
+    "text": "Change a few things up and try submitting again."
+  }
+}

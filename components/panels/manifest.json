@@ -1,0 +1,17 @@
+{
+  "name": "panels",
+  "version": "3.0.0",
+  "description": "Panels UI component, from Upstage.",
+  "main": [
+    "dist/panels.css",
+    "dist/panels.html",
+    "dist/panels.js"
+  ],
+  "metadata": "panels.json",
+  "structure": "panels.hbs",
+  "styles": "panels.less",
+  "dependencies": {
+    "variables": "variables/variables.less",
+    "mixins": "mixins/mixins.less"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "badges",
+  "version": "3.0.0",
+  "description": "Badges UI component, from Upstage.",
+  "main": [
+    "dist/badges.css",
+    "dist/badges.html",
+    "dist/badges.js"
+  ],
+  "metadata": "badges.json",
+  "structure": "badges.hbs",
+  "styles": "badges.less",
+  "dependencies": {
+    "variables": "variables/variables.less",
+    "mixins": "mixins/mixins.less"
+  }
+}

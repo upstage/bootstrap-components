@@ -1,0 +1,17 @@
+{
+  "name": "grid",
+  "version": "3.0.0",
+  "description": "Grid UI component, from Upstage.",
+  "main": [
+    "dist/grid.css",
+    "dist/grid.html",
+    "dist/grid.js"
+  ],
+  "metadata": "grid.json",
+  "structure": "grid.hbs",
+  "styles": "grid.less",
+  "dependencies": {
+    "variables": "variables/variables.less",
+    "mixins": "mixins/mixins.less"
+  }
+}

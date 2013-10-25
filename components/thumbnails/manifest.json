@@ -1,0 +1,17 @@
+{
+  "name": "thumbnails",
+  "version": "3.0.0",
+  "description": "Thumbnails UI component, from Upstage.",
+  "main": [
+    "dist/thumbnails.css",
+    "dist/thumbnails.html",
+    "dist/thumbnails.js"
+  ],
+  "metadata": "thumbnails.json",
+  "structure": "thumbnails.hbs",
+  "styles": "thumbnails.less",
+  "dependencies": {
+    "variables": "variables/variables.less",
+    "mixins": "mixins/mixins.less"
+  }
+}

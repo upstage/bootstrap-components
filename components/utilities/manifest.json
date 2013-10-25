@@ -1,0 +1,17 @@
+{
+  "name": "utilities",
+  "version": "3.0.0",
+  "description": "Utilities UI component, from Upstage.",
+  "main": [
+    "dist/utilities.css",
+    "dist/utilities.html",
+    "dist/utilities.js"
+  ],
+  "metadata": "utilities.json",
+  "structure": "utilities.hbs",
+  "styles": "utilities.less",
+  "dependencies": {
+    "variables": "variables/variables.less",
+    "mixins": "mixins/mixins.less"
+  }
+}

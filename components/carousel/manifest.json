@@ -1,0 +1,17 @@
+{
+  "name": "carousel",
+  "version": "3.0.0",
+  "description": "Carousel UI component, from Upstage.",
+  "main": [
+    "dist/carousel.css",
+    "dist/carousel.html",
+    "dist/carousel.js"
+  ],
+  "metadata": "carousel.json",
+  "structure": "carousel.hbs",
+  "styles": "carousel.less",
+  "dependencies": {
+    "variables": "variables/variables.less",
+    "mixins": "mixins/mixins.less"
+  }
+}

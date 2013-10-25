@@ -1,0 +1,17 @@
+{
+  "name": "jumbotron",
+  "version": "3.0.0",
+  "description": "Jumbotron UI component, from Upstage.",
+  "main": [
+    "dist/jumbotron.css",
+    "dist/jumbotron.html",
+    "dist/jumbotron.js"
+  ],
+  "metadata": "jumbotron.json",
+  "structure": "jumbotron.hbs",
+  "styles": "jumbotron.less",
+  "dependencies": {
+    "variables": "variables/variables.less",
+    "mixins": "mixins/mixins.less"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "wells",
+  "version": "3.0.0",
+  "description": "Wells UI component, from Upstage.",
+  "main": [
+    "dist/wells.css",
+    "dist/wells.html",
+    "dist/wells.js"
+  ],
+  "metadata": "wells.json",
+  "structure": "wells.hbs",
+  "styles": "wells.less",
+  "dependencies": {
+    "variables": "variables/variables.less",
+    "mixins": "mixins/mixins.less"
+  }
+}

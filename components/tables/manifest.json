@@ -1,0 +1,17 @@
+{
+  "name": "tables",
+  "version": "3.0.0",
+  "description": "Tables UI component, from Upstage.",
+  "main": [
+    "dist/tables.css",
+    "dist/tables.html",
+    "dist/tables.js"
+  ],
+  "metadata": "tables.json",
+  "structure": "tables.hbs",
+  "styles": "tables.less",
+  "dependencies": {
+    "variables": "variables/variables.less",
+    "mixins": "mixins/mixins.less"
+  }
+}

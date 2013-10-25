@@ -1,0 +1,17 @@
+{
+  "name": "alerts",
+  "version": "3.0.0",
+  "description": "Alerts UI component, from Upstage.",
+  "main": [
+    "dist/alerts.css",
+    "dist/alerts.html",
+    "dist/alerts.js"
+  ],
+  "metadata": "alerts.json",
+  "structure": "alerts.hbs",
+  "styles": "alerts.less",
+  "dependencies": {
+    "variables": "variables/variables.less",
+    "mixins": "mixins/mixins.less"
+  }
+}

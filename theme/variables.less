@@ -28,7 +28,6 @@
 // -------------------------
 
 @body-bg:               #fff;
-@body-padding:          @navbar-height;
 @text-color:            @gray-dark;
 
 // Links
@@ -39,6 +38,7 @@
 
 // Typography
 // -------------------------
+
 @font-family-sans-serif:  "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 @font-family-serif:       Georgia, "Times New Roman", Times, serif;
 @font-family-monospace:   Monaco, Menlo, Consolas, "Courier New", monospace;
@@ -254,7 +254,7 @@
 // -------------------------
 
 // Basics of a navbar
-@navbar-height:                    70px;
+@navbar-height:                    60px;
 @navbar-margin-bottom:             @line-height-computed;
 @navbar-border-radius:             @border-radius-base;
 @navbar-padding-horizontal:        floor(@grid-gutter-width / 2);
@@ -287,12 +287,12 @@
 // Inverted navbar
 //
 // Reset inverted navbar basics
-@navbar-inverse-color:                      #b9c8e0;
-@navbar-inverse-bg:                         #1d365d;
+@navbar-inverse-color:                      @gray-light;
+@navbar-inverse-bg:                         #222;
 @navbar-inverse-border:                     darken(@navbar-inverse-bg, 10%);
 
 // Inverted navbar links
-@navbar-inverse-link-color:                 @navbar-inverse-color;
+@navbar-inverse-link-color:                 @gray-light;
 @navbar-inverse-link-hover-color:           #fff;
 @navbar-inverse-link-hover-bg:              transparent;
 @navbar-inverse-link-active-color:          @navbar-inverse-link-hover-color;
@@ -625,7 +625,7 @@
 // --------------------------------------------------
 
 // Small screen / tablet
-@container-tablet:            ((720px + @grid-gutter-width));
+@container-tablet:             ((720px + @grid-gutter-width));
 @container-sm:                 @container-tablet;
 
 // Medium screen / desktop

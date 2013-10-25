@@ -1,0 +1,17 @@
+{
+  "name": "code",
+  "version": "3.0.0",
+  "description": "Code UI component, from Upstage.",
+  "main": [
+    "dist/code.css",
+    "dist/code.html",
+    "dist/code.js"
+  ],
+  "metadata": "code.json",
+  "structure": "code.hbs",
+  "styles": "code.less",
+  "dependencies": {
+    "variables": "variables/variables.less",
+    "mixins": "mixins/mixins.less"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "type",
+  "version": "3.0.0",
+  "description": "Type UI component, from Upstage.",
+  "main": [
+    "dist/type.css",
+    "dist/type.html",
+    "dist/type.js"
+  ],
+  "metadata": "type.json",
+  "structure": "type.hbs",
+  "styles": "type.less",
+  "dependencies": {
+    "variables": "variables/variables.less",
+    "mixins": "mixins/mixins.less"
+  }
+}

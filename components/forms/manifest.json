@@ -1,0 +1,17 @@
+{
+  "name": "forms",
+  "version": "3.0.0",
+  "description": "Forms UI component, from Upstage.",
+  "main": [
+    "dist/forms.css",
+    "dist/forms.html",
+    "dist/forms.js"
+  ],
+  "metadata": "forms.json",
+  "structure": "forms.hbs",
+  "styles": "forms.less",
+  "dependencies": {
+    "variables": "variables/variables.less",
+    "mixins": "mixins/mixins.less"
+  }
+}

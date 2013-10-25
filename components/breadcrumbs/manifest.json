@@ -1,0 +1,17 @@
+{
+  "name": "breadcrumbs",
+  "version": "3.0.0",
+  "description": "Breadcrumbs UI component, from Upstage.",
+  "main": [
+    "dist/breadcrumbs.css",
+    "dist/breadcrumbs.html",
+    "dist/breadcrumbs.js"
+  ],
+  "metadata": "breadcrumbs.json",
+  "structure": "breadcrumbs.hbs",
+  "styles": "breadcrumbs.less",
+  "dependencies": {
+    "variables": "variables/variables.less",
+    "mixins": "mixins/mixins.less"
+  }
+}

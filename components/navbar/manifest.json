@@ -1,0 +1,17 @@
+{
+  "name": "navbar",
+  "version": "3.0.0",
+  "description": "Navbar UI component, from Upstage.",
+  "main": [
+    "dist/navbar.css",
+    "dist/navbar.html",
+    "dist/navbar.js"
+  ],
+  "metadata": "navbar.json",
+  "structure": "navbar.hbs",
+  "styles": "navbar.less",
+  "dependencies": {
+    "variables": "variables/variables.less",
+    "mixins": "mixins/mixins.less"
+  }
+}

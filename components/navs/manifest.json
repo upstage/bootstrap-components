@@ -1,0 +1,17 @@
+{
+  "name": "navs",
+  "version": "3.0.0",
+  "description": "Navs UI component, from Upstage.",
+  "main": [
+    "dist/navs.css",
+    "dist/navs.html",
+    "dist/navs.js"
+  ],
+  "metadata": "navs.json",
+  "structure": "navs.hbs",
+  "styles": "navs.less",
+  "dependencies": {
+    "variables": "variables/variables.less",
+    "mixins": "mixins/mixins.less"
+  }
+}

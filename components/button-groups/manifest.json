@@ -1,0 +1,17 @@
+{
+  "name": "button-groups",
+  "version": "3.0.0",
+  "description": "Button Groups UI component, from Upstage.",
+  "main": [
+    "dist/button-groups.css",
+    "dist/button-groups.html",
+    "dist/button-groups.js"
+  ],
+  "metadata": "button-groups.json",
+  "structure": "button-groups.hbs",
+  "styles": "button-groups.less",
+  "dependencies": {
+    "variables": "variables/variables.less",
+    "mixins": "mixins/mixins.less"
+  }
+}

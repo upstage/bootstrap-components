@@ -1,0 +1,17 @@
+{
+  "name": "bootstrap",
+  "version": "3.0.0",
+  "description": "Bootstrap UI component, from Upstage.",
+  "main": [
+    "dist/bootstrap.css",
+    "dist/bootstrap.html",
+    "dist/bootstrap.js"
+  ],
+  "metadata": "bootstrap.json",
+  "structure": "bootstrap.hbs",
+  "styles": "bootstrap.less",
+  "dependencies": {
+    "variables": "variables/variables.less",
+    "mixins": "mixins/mixins.less"
+  }
+}

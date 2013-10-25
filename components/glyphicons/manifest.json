@@ -1,0 +1,17 @@
+{
+  "name": "glyphicons",
+  "version": "3.0.0",
+  "description": "Glyphicons UI component, from Upstage.",
+  "main": [
+    "dist/glyphicons.css",
+    "dist/glyphicons.html",
+    "dist/glyphicons.js"
+  ],
+  "metadata": "glyphicons.json",
+  "structure": "glyphicons.hbs",
+  "styles": "glyphicons.less",
+  "dependencies": {
+    "variables": "variables/variables.less",
+    "mixins": "mixins/mixins.less"
+  }
+}

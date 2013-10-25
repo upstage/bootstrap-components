@@ -1,0 +1,17 @@
+{
+  "name": "buttons",
+  "version": "3.0.0",
+  "description": "Buttons UI component, from Upstage.",
+  "main": [
+    "dist/buttons.css",
+    "dist/buttons.html",
+    "dist/buttons.js"
+  ],
+  "metadata": "buttons.json",
+  "structure": "buttons.hbs",
+  "styles": "buttons.less",
+  "dependencies": {
+    "variables": "variables/variables.less",
+    "mixins": "mixins/mixins.less"
+  }
+}

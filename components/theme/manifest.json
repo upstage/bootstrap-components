@@ -1,0 +1,17 @@
+{
+  "name": "theme",
+  "version": "3.0.0",
+  "description": "Theme UI component, from Upstage.",
+  "main": [
+    "dist/theme.css",
+    "dist/theme.html",
+    "dist/theme.js"
+  ],
+  "metadata": "theme.json",
+  "structure": "theme.hbs",
+  "styles": "theme.less",
+  "dependencies": {
+    "variables": "variables/variables.less",
+    "mixins": "mixins/mixins.less"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "dropdowns",
+  "version": "3.0.0",
+  "description": "Dropdowns UI component, from Upstage.",
+  "main": [
+    "dist/dropdowns.css",
+    "dist/dropdowns.html",
+    "dist/dropdowns.js"
+  ],
+  "metadata": "dropdowns.json",
+  "structure": "dropdowns.hbs",
+  "styles": "dropdowns.less",
+  "dependencies": {
+    "variables": "variables/variables.less",
+    "mixins": "mixins/mixins.less"
+  }
+}

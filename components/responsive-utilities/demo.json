@@ -1,0 +1,19 @@
+{
+  "title": "Responsive Utilities Example",
+  "component": "responsive-utilities",
+  "modifiers": [],
+  "source": {
+    "name": "bootstrap",
+    "version": "3.0.0"
+  },
+  "authors": [
+    {
+      "name": "Mark Otto",
+      "url": "https://github.com/mdo/"
+    },
+    {
+      "name": "Jacob Thornton",
+      "url": "https://github.com/fat/"
+    }
+  ]
+}

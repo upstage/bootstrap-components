@@ -1,0 +1,17 @@
+{
+  "name": "input-groups",
+  "version": "3.0.0",
+  "description": "Input Groups UI component, from Upstage.",
+  "main": [
+    "dist/input-groups.css",
+    "dist/input-groups.html",
+    "dist/input-groups.js"
+  ],
+  "metadata": "input-groups.json",
+  "structure": "input-groups.hbs",
+  "styles": "input-groups.less",
+  "dependencies": {
+    "variables": "variables/variables.less",
+    "mixins": "mixins/mixins.less"
+  }
+}

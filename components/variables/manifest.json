@@ -1,0 +1,17 @@
+{
+  "name": "variables",
+  "version": "3.0.0",
+  "description": "Variables UI component, from Upstage.",
+  "main": [
+    "dist/variables.css",
+    "dist/variables.html",
+    "dist/variables.js"
+  ],
+  "metadata": "variables.json",
+  "structure": "variables.hbs",
+  "styles": "variables.less",
+  "dependencies": {
+    "variables": "variables/variables.less",
+    "mixins": "mixins/mixins.less"
+  }
+}

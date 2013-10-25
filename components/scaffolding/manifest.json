@@ -1,0 +1,17 @@
+{
+  "name": "scaffolding",
+  "version": "3.0.0",
+  "description": "Scaffolding UI component, from Upstage.",
+  "main": [
+    "dist/scaffolding.css",
+    "dist/scaffolding.html",
+    "dist/scaffolding.js"
+  ],
+  "metadata": "scaffolding.json",
+  "structure": "scaffolding.hbs",
+  "styles": "scaffolding.less",
+  "dependencies": {
+    "variables": "variables/variables.less",
+    "mixins": "mixins/mixins.less"
+  }
+}

@@ -3,7 +3,7 @@ dest: _gh_pages
 
 
 # Site metadata
-title: Bootstrap Templates
+title: Bootstrap Components
 lead: false
 description: >
   Templates and data for Bootstrap's components.
@@ -12,6 +12,7 @@ description: >
 license:
   type: MIT License
   url: ./license/index.html
+
 
 # URLs
 blog: http://assemble.io/blog/

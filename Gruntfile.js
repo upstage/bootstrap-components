@@ -20,47 +20,48 @@ module.exports = function(grunt) {
 
     bootstrap: '<%= vendor %>/bootstrap',
 
-    // // Generate components
-    // components: {
-    //   bootstrap: {
-    //     src: ['<%= vendor %>/bootstrap/less/*.less'],
-    //     dest: 'components/'
-    //   }
-    // },
 
-    // get: {
-    //   options: {
-    //     pretty: true,
-    //     host: 'getbootstrap.com'
-    //   },
-    //   pages: {
-    //     options: {append: '/index'},
-    //     files: [
-    //       {dest: '<%= vendor %>/', ext: '.html', src: ['components', 'css', 'javascript']}
-    //     ]
-    //   }
-    // },
+    // Generate components
+    components: {
+      bootstrap: {
+        src: ['<%= vendor %>/bootstrap/less/*.less'],
+        dest: 'tmp/components/'
+      }
+    },
 
-    // reverse: {
-    //   options: {
-    //     ext: 'hbs',
-    //     parent: 'bs-example',
-    //     flatten: true
-    //   },
-    //   bootstrap: {
-    //     files: {
-    //       'components/': ['<%= vendor %>/*.html']
-    //     }
-    //   }
-    // },
+    get: {
+      options: {
+        pretty: true,
+        host: 'getbootstrap.com'
+      },
+      pages: {
+        options: {append: '/index'},
+        files: [
+          {dest: '<%= vendor %>/', ext: '.html', src: ['components', 'css', 'javascript']}
+        ]
+      }
+    },
 
-    // matter: {
-    //   components: {
-    //     files: [
-    //       {expand: true, cwd: 'components', src: ['**/*.hbs'], dest: 'components/', ext: '.hbs'}
-    //     ]
-    //   }
-    // },
+    reverse: {
+      options: {
+        ext: 'hbs',
+        parent: 'bs-example',
+        flatten: true
+      },
+      bootstrap: {
+        files: {
+          'tmp/': ['<%= vendor %>/*.html']
+        }
+      }
+    },
+
+    matter: {
+      components: {
+        files: [
+          {dest: 'tmp/', cwd: 'components', src: ['**/*.hbs'], ext: '.hbs', expand: true}
+        ]
+      }
+    },
 
     assemble: {
       options: {
@@ -84,23 +85,29 @@ module.exports = function(grunt) {
       }
     },
 
+
+    /**
+     * Compile LESS to CSS
+     */
     less: {
       options: {
-        paths: ['<%= bootstrap %>/less'],
-        imports: {
-          // Each referenced file has something required by other .less files.
-          reference: ['variables', 'mixins', 'utilities', 'scaffolding', 'buttons', 'forms']
-        }
+        paths: ['theme/bootstrap', 'theme/components', 'theme']
       },
       base: {
-        src: '<%= vendor %>/base.less',
+        src: 'theme/base.less',
         dest: '<%= assemble.options.assets %>/css/base.css'
       },
-      bootstrap: {
-        src: '<%= bootstrap %>/less/bootstrap.less',
-        dest: '<%= assemble.options.assets %>/css/bootstrap.css'
+      docs: {
+        src: ['theme/theme.less'],
+        dest: '<%= assemble.options.assets %>/css/docs.css'
       },
       components: {
+        options: {
+          // Each referenced file has something required by other .less files.
+          imports: {
+            reference: ['variables', 'mixins', 'utilities', 'scaffolding', 'buttons', 'forms']
+          }
+        },
         files: [
           {
             expand: true,

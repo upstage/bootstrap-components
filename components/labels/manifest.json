@@ -1,0 +1,17 @@
+{
+  "name": "labels",
+  "version": "3.0.0",
+  "description": "Labels UI component, from Upstage.",
+  "main": [
+    "dist/labels.css",
+    "dist/labels.html",
+    "dist/labels.js"
+  ],
+  "metadata": "labels.json",
+  "structure": "labels.hbs",
+  "styles": "labels.less",
+  "dependencies": {
+    "variables": "variables/variables.less",
+    "mixins": "mixins/mixins.less"
+  }
+}

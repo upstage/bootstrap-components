@@ -1,0 +1,17 @@
+{
+  "name": "popovers",
+  "version": "3.0.0",
+  "description": "Popovers UI component, from Upstage.",
+  "main": [
+    "dist/popovers.css",
+    "dist/popovers.html",
+    "dist/popovers.js"
+  ],
+  "metadata": "popovers.json",
+  "structure": "popovers.hbs",
+  "styles": "popovers.less",
+  "dependencies": {
+    "variables": "variables/variables.less",
+    "mixins": "mixins/mixins.less"
+  }
+}

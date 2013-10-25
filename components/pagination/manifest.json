@@ -1,0 +1,17 @@
+{
+  "name": "pagination",
+  "version": "3.0.0",
+  "description": "Pagination UI component, from Upstage.",
+  "main": [
+    "dist/pagination.css",
+    "dist/pagination.html",
+    "dist/pagination.js"
+  ],
+  "metadata": "pagination.json",
+  "structure": "pagination.hbs",
+  "styles": "pagination.less",
+  "dependencies": {
+    "variables": "variables/variables.less",
+    "mixins": "mixins/mixins.less"
+  }
+}

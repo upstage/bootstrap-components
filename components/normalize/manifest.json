@@ -1,0 +1,17 @@
+{
+  "name": "normalize",
+  "version": "3.0.0",
+  "description": "Normalize UI component, from Upstage.",
+  "main": [
+    "dist/normalize.css",
+    "dist/normalize.html",
+    "dist/normalize.js"
+  ],
+  "metadata": "normalize.json",
+  "structure": "normalize.hbs",
+  "styles": "normalize.less",
+  "dependencies": {
+    "variables": "variables/variables.less",
+    "mixins": "mixins/mixins.less"
+  }
+}

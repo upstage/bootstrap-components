@@ -1,0 +1,17 @@
+{
+  "name": "progress-bars",
+  "version": "3.0.0",
+  "description": "Progress Bars UI component, from Upstage.",
+  "main": [
+    "dist/progress-bars.css",
+    "dist/progress-bars.html",
+    "dist/progress-bars.js"
+  ],
+  "metadata": "progress-bars.json",
+  "structure": "progress-bars.hbs",
+  "styles": "progress-bars.less",
+  "dependencies": {
+    "variables": "variables/variables.less",
+    "mixins": "mixins/mixins.less"
+  }
+}

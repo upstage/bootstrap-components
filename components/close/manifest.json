@@ -1,0 +1,17 @@
+{
+  "name": "close",
+  "version": "3.0.0",
+  "description": "Close UI component, from Upstage.",
+  "main": [
+    "dist/close.css",
+    "dist/close.html",
+    "dist/close.js"
+  ],
+  "metadata": "close.json",
+  "structure": "close.hbs",
+  "styles": "close.less",
+  "dependencies": {
+    "variables": "variables/variables.less",
+    "mixins": "mixins/mixins.less"
+  }
+}

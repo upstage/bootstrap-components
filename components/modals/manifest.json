@@ -1,0 +1,17 @@
+{
+  "name": "modals",
+  "version": "3.0.0",
+  "description": "Modals UI component, from Upstage.",
+  "main": [
+    "dist/modals.css",
+    "dist/modals.html",
+    "dist/modals.js"
+  ],
+  "metadata": "modals.json",
+  "structure": "modals.hbs",
+  "styles": "modals.less",
+  "dependencies": {
+    "variables": "variables/variables.less",
+    "mixins": "mixins/mixins.less"
+  }
+}

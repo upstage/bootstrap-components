@@ -1,0 +1,17 @@
+{
+  "name": "pager",
+  "version": "3.0.0",
+  "description": "Pager UI component, from Upstage.",
+  "main": [
+    "dist/pager.css",
+    "dist/pager.html",
+    "dist/pager.js"
+  ],
+  "metadata": "pager.json",
+  "structure": "pager.hbs",
+  "styles": "pager.less",
+  "dependencies": {
+    "variables": "variables/variables.less",
+    "mixins": "mixins/mixins.less"
+  }
+}

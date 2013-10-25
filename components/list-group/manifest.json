@@ -1,0 +1,17 @@
+{
+  "name": "list-group",
+  "version": "3.0.0",
+  "description": "List Group UI component, from Upstage.",
+  "main": [
+    "dist/list-group.css",
+    "dist/list-group.html",
+    "dist/list-group.js"
+  ],
+  "metadata": "list-group.json",
+  "structure": "list-group.hbs",
+  "styles": "list-group.less",
+  "dependencies": {
+    "variables": "variables/variables.less",
+    "mixins": "mixins/mixins.less"
+  }
+}

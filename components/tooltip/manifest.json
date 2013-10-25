@@ -1,0 +1,17 @@
+{
+  "name": "tooltip",
+  "version": "3.0.0",
+  "description": "Tooltip UI component, from Upstage.",
+  "main": [
+    "dist/tooltip.css",
+    "dist/tooltip.html",
+    "dist/tooltip.js"
+  ],
+  "metadata": "tooltip.json",
+  "structure": "tooltip.hbs",
+  "styles": "tooltip.less",
+  "dependencies": {
+    "variables": "variables/variables.less",
+    "mixins": "mixins/mixins.less"
+  }
+}

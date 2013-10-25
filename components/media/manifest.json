@@ -1,0 +1,17 @@
+{
+  "name": "media",
+  "version": "3.0.0",
+  "description": "Media UI component, from Upstage.",
+  "main": [
+    "dist/media.css",
+    "dist/media.html",
+    "dist/media.js"
+  ],
+  "metadata": "media.json",
+  "structure": "media.hbs",
+  "styles": "media.less",
+  "dependencies": {
+    "variables": "variables/variables.less",
+    "mixins": "mixins/mixins.less"
+  }
+}

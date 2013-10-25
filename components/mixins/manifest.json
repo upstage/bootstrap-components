@@ -1,0 +1,17 @@
+{
+  "name": "mixins",
+  "version": "3.0.0",
+  "description": "Mixins UI component, from Upstage.",
+  "main": [
+    "dist/mixins.css",
+    "dist/mixins.html",
+    "dist/mixins.js"
+  ],
+  "metadata": "mixins.json",
+  "structure": "mixins.hbs",
+  "styles": "mixins.less",
+  "dependencies": {
+    "variables": "variables/variables.less",
+    "mixins": "mixins/mixins.less"
+  }
+}
